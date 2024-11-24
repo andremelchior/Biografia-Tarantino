@@ -113,5 +113,49 @@ main{
 }
 
 .initial-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 70%;
+}
+
+.text{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-bottom: 90px;
+}
+
+.text h1{
+    display: inline;
+    color: white;
+    text-align: left;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100 !important;
+}
+
+.text strong{
+    color: #a70fc6;
+    font-weight: bold;
+}
+
+.text h2{
+    color: white;
+    font-family: inter;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 1px;
+    
+}
+
+.text h3{
+    color: white;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 350;
+    padding-bottom: 5px;
 }
