@@ -126,7 +126,7 @@ main{
     justify-content: center;
     flex-direction: column;
     margin-left: 60px;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
 }
 
 .text h1{
@@ -158,4 +158,40 @@ main{
     font-size: 19px;
     font-weight: 350;
     padding-bottom: 5px;
+}
+
+.initial-content button {
+    width: 115px;
+    font-weight: bold;
+    margin-top: 35px;
+    background: transparent;
+    color: #ffffff;
+    /* padding: 5px 25px; */
+    border: 2px solid #a70fc6;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.initial-content button:hover {
+    background: #a70fc6;
+    transition: 0.5s;
+}
+.initial-content button:focus {
+    outline: 0;
+}
+
+.btnBio a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    transition: 0.5s;
+}
+
+.btnBio a:hover{
+    text-shadow: 0 0 20px blue;
+    transition: 0.5s;
 }
