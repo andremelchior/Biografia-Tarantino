@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 20px 0;
+    display: flex;
+    gap: 300px;
+    background-color: #333;
+    position: fixed;
+}
+
+.header-1 {
+    width: 44%;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.header-1 h1 {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 7px 15px;
+    transition: 0.3s;
+}
+
+.header-1 h1:hover {
+    transition: 0.3s;
+    text-shadow: 0 0 10px #a70fc6;
+}
+
+.components-menu-container {
+    width: 80%;
+}
+
+.components-list {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu1 {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    cursor: pointer;
+    border-bottom: 2px solid #a70fc6;
+    text-shadow: 0 0 4px #a70fc6;
+    color: #a70fc6;
+}
+
+.menu {
+    color: white;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu:hover {
+    transition: 0.3s;
+    color: #a70fc6;
+    text-shadow: 0 0 4px #a70fc6;
+}
+
+.border-menu {
+    display: inline-block;
+    position: relative;
+}
+
+.border-menu::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 30%;
+    border-bottom: 2px solid #a70fc6;
+    transition: 0.3s;
+}
+
+.border-menu:hover::after {
+    transition: 0.3s;
+    width: 100%;
+}
