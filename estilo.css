@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(background.jpg);
+    background-size: cover;
+
+}
+
+.cartaz {
+       
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    
+
+}
+
+#sinopse{
+   
+    
+    align-items: center;
+    text-align: justify;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width:768px){
+    .cartaz{
+        display: block;
+        background-image: none;
+        width: 50vw;
+        margin: 0;
+         }
+
+         
+    
+}
