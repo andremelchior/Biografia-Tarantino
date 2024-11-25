@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: url(../Assets/bg.jpg) no-repeat top center/cover;
 }
 
@@ -14,7 +14,7 @@ header {
     height: 100px;
     display: flex;
     gap: 100px;
-    background-color: #110F12;
+    background-color: #110f12;
     position: fixed;
     z-index: 1000;
 }
@@ -101,13 +101,13 @@ header {
     width: 100%;
 }
 
-main{
+main {
     width: 100%;
     height: 100%;
     margin-top: 100px;
 }
 
-.bg{
+.bg {
     background: url(../Assets/background.png) no-repeat top center/cover;
     display: flex;
     width: 100%;
@@ -115,14 +115,14 @@ main{
     background-attachment: fixed;
 }
 
-.initial-content{
+.initial-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 70%;
 }
 
-.text{
+.text {
     width: 80%;
     height: 50%;
     display: flex;
@@ -132,7 +132,7 @@ main{
     margin-bottom: 10px;
 }
 
-.text h1{
+.text h1 {
     display: inline;
     color: white;
     text-align: left;
@@ -141,21 +141,20 @@ main{
     font-weight: 100 !important;
 }
 
-.text strong{
+.text strong {
     color: #a70fc6;
     font-weight: bold;
 }
 
-.text h2{
+.text h2 {
     color: white;
     font-family: inter;
     font-weight: bold;
     font-size: 27px;
     margin-top: 1px;
-    
 }
 
-.text h3{
+.text h3 {
     color: white;
     font-family: inter;
     font-size: 19px;
@@ -196,7 +195,7 @@ main{
     transition: 0.5s;
 }
 
-.btnBio a:hover{
+.btnBio a:hover {
     text-shadow: 0 0 20px blue;
     transition: 0.5s;
 }
@@ -227,7 +226,7 @@ main :where(.itens-bio, .itens-filme2) {
     justify-content: space-around;
 }
 
-main :where(.itens-filme1, .itens-filme3,) {
+main :where(.itens-filme1, .itens-filme3, ) {
     width: 1100px;
     max-width: 95%;
     margin: 0 auto;
@@ -237,14 +236,14 @@ main :where(.itens-filme1, .itens-filme3,) {
     justify-content: space-around;
 }
 
-main :where(.itens-filme1, .itens-filme2, .itens-filme3,) img{
+main :where(.itens-filme1, .itens-filme2, .itens-filme3, ) img {
     width: 30%;
     filter: grayscale(100%);
     border-radius: 1%;
     transition: 0.3s;
 }
 
-main :where(.itens-filme1, .itens-filme2, .itens-filme3,) img:hover{
+main :where(.itens-filme1, .itens-filme2, .itens-filme3, ) img:hover {
     filter: none;
     transition: 0.3s;
 }
@@ -253,9 +252,14 @@ main :where(.itens-filme1, .itens-filme2, .itens-filme3,) img:hover{
     width: 600px;
 }
 
-.texto span{
+.texto span {
+    color: blueviolet;
+}
+
+.texto strong{
     color: #a70fc6;
     text-shadow: 0 0 20px black;
+    font-weight: 600;
 }
 
 .texto p {
@@ -271,9 +275,4 @@ main :where(.itens-filme1, .itens-filme2, .itens-filme3,) img:hover{
     padding: 15px 0;
     font-size: 40px;
     font-family: "Courier New", Courier, monospace;
-}
-
-.texto span{
-    color: blueviolet;
-    font-weight: 600;
 }
