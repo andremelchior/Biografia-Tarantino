@@ -16,6 +16,7 @@ header {
     gap: 100px;
     background-color: #110F12;
     position: fixed;
+    z-index: 1000;
 }
 
 .header-1 {
@@ -200,7 +201,7 @@ main{
     transition: 0.5s;
 }
 
-.bio {
+main :where(.bio, .filme1, .filme2, .filme3) {
     width: 100%;
     padding: 8% 0px 5%;
 }
@@ -217,13 +218,35 @@ main{
     transition: 0.3s;
 }
 
-.itens-bio {
+main :where(.itens-bio, .itens-filme2) {
     width: 1100px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+main :where(.itens-filme1, .itens-filme3,) {
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main :where(.itens-filme1, .itens-filme2, .itens-filme3,) img{
+    width: 30%;
+    filter: grayscale(100%);
+    border-radius: 1%;
+    transition: 0.3s;
+}
+
+main :where(.itens-filme1, .itens-filme2, .itens-filme3,) img:hover{
+    filter: none;
+    transition: 0.3s;
 }
 
 .texto {
