@@ -249,3 +249,8 @@ main{
     font-size: 40px;
     font-family: "Courier New", Courier, monospace;
 }
+
+.texto span{
+    color: blueviolet;
+    font-weight: 600;
+}
