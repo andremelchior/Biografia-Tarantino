@@ -276,5 +276,3 @@ main :where(.itens-filme1, .itens-filme2, .itens-filme3, ) img:hover {
     font-size: 40px;
     font-family: "Courier New", Courier, monospace;
 }
-
-/* teste */
