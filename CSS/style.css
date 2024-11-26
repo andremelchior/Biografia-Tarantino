@@ -1,95 +1,97 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background: url(../Assets/bg.jpg) no-repeat top center/cover;
+    background: url(../Assets/bg.jpg) no-repeat top center/cover;
 }
 
 header {
-  top: 0;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  gap: 100px;
-  background-color: #110f12;
-  position: fixed;
-  z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 100px;
+    background-color: #110f12;
+    position: fixed;
+    z-index: 1000;
 }
 
 .header-1 {
-  width: 44%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px;
-  margin-left: 35px;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 35px;
 }
 
 .header-1 h1 {
-  font-size: 20px;
-  font-family: inter;
-  color: white;
-  padding: 7px 15px;
-  transition: 0.3s;
+    font-size: 20px;
+    font-family: inter;
+    color: white;
+    padding: 7px 15px;
+    transition: 0.3s;
 }
 
 .header-1 h1:hover {
-  transition: 0.3s;
-  text-shadow: 0 0 10px #a70fc6;
+    transition: 0.3s;
+    text-shadow: 0 0 10px #a70fc6;
 }
 
 .components-menu-container {
-  width: 80%;
+    width: 80%;
 }
 
 .components-list {
-  height: 100%;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .menu1 {
-  font-size: 15px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  cursor: pointer;
-  border-bottom: 2px solid #a70fc6;
-  text-shadow: 0 0 4px #a70fc6;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    cursor: pointer;
+    border-bottom: 2px solid #a70fc6;
+    text-shadow: 0 0 4px #a70fc6;
 }
 
 .menu1 a {
-  text-decoration: none;
-  color: #a70fc6;
+    text-decoration: none;
+    color: #a70fc6;
 }
 
 .menu a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .menu {
-  font-size: 15px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  transition: 0.3s;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .menu:hover {
-  transition: 0.3s;
-  color: #a70fc6;
-  text-shadow: 0 0 4px #a70fc6;
+    transition: 0.3s;
+    color: #a70fc6;
+    text-shadow: 0 0 4px #a70fc6;
 }
 
 .border-menu {
-  display: inline-block;
-  position: relative;
+    display: inline-block;
+    position: relative;
 }
 
 .border-menu::after {
@@ -103,289 +105,375 @@ header {
 }
 
 .border-menu:hover::after {
-  transition: 0.3s;
-  width: 100%;
+    transition: 0.3s;
+    width: 100%;
 }
 
 main {
-  width: 100%;
-  height: 100%;
-  margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
 }
 
 .bg {
-  background: url(../Assets/background.png) no-repeat top center/cover;
-  display: flex;
-  width: 100%;
-  height: 735px;
-  background-attachment: fixed;
+    background: url(../Assets/background.png) no-repeat top center/cover;
+    display: flex;
+    width: 100%;
+    height: 735px;
+    background-attachment: fixed;
 }
 
 .initial-content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
 }
 
 .text {
-  width: 80%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 60px;
-  margin-bottom: 10px;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
 
 .text h1 {
-  display: inline;
-  color: white;
-  text-align: left;
-  font-size: 55px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100 !important;
+    display: inline;
+    color: white;
+    text-align: left;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100 !important;
 }
 
 .text strong {
-  color: #a70fc6;
-  font-weight: bold;
+    color: #a70fc6;
+    font-weight: bold;
 }
 
 .text h2 {
-  color: white;
-  font-family: inter;
-  font-weight: bold;
-  font-size: 27px;
-  margin-top: 1px;
+    color: white;
+    font-family: inter;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 1px;
 }
 
 .text h3 {
-  color: white;
-  font-family: inter;
-  font-size: 19px;
-  font-weight: 350;
-  padding-bottom: 5px;
+    color: white;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 350;
+    padding-bottom: 5px;
 }
 
 .initial-content button {
-  width: 115px;
-  font-weight: bold;
-  margin-top: 35px;
-  background: transparent;
-  color: #ffffff;
-  /* padding: 5px 25px; */
-  border: 2px solid #a70fc6;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: 0.5s;
+    width: 115px;
+    font-weight: bold;
+    margin-top: 35px;
+    background: transparent;
+    color: #ffffff;
+    /* padding: 5px 25px; */
+    border: 2px solid #a70fc6;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .initial-content button:hover {
-  background: #a70fc6;
-  transition: 0.5s;
+    background: #a70fc6;
+    transition: 0.5s;
 }
 
 .initial-content button:focus {
-  outline: 0;
+    outline: 0;
 }
 
 .btnBio a {
-  display: block;
-  padding: 5px 20px;
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 35px;
-  transition: 0.5s;
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    transition: 0.5s;
 }
 
 .btnBio a:hover {
-  text-shadow: 0 0 20px blue;
-  transition: 0.5s;
+    text-shadow: 0 0 20px blue;
+    transition: 0.5s;
 }
 
 main :where(.bio, .filme1, .filme2, .filme3) {
-  width: 100%;
-  padding: 13% 0px 5%;
+    width: 100%;
+    padding: 13% 0px 5%;
 }
 
 .itens-bio img {
-  width: 30%;
-  filter: grayscale(100%);
-  border-radius: 1%;
-  transition: 0.3s;
+    width: 30%;
+    filter: grayscale(100%);
+    border-radius: 1%;
+    transition: 0.3s;
 }
 
 .itens-bio img:hover {
-  filter: none;
-  transition: 0.3s;
+    filter: none;
+    transition: 0.3s;
 }
 
 main :where(.itens-bio, .itens-filme2) {
-  width: 1100px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 main :where(.itens-filme1, .itens-filme3, ) {
-  width: 1100px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-around;
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
 }
 
 main :where(.itens-filme1, .itens-filme2, .itens-filme3, ) img {
-  width: 30%;
-  filter: grayscale(100%);
-  border-radius: 1%;
-  transition: 0.3s;
+    width: 30%;
+    filter: grayscale(100%);
+    border-radius: 1%;
+    transition: 0.3s;
 }
 
 main :where(.itens-filme1, .itens-filme2, .itens-filme3, ) img:hover {
-  filter: none;
-  transition: 0.3s;
+    filter: none;
+    transition: 0.3s;
 }
 
 .texto {
-  width: 600px;
+    width: 600px;
 }
 
 .texto span {
-  color: blueviolet;
+    color: blueviolet;
 }
 
 .texto strong {
-  color: #a70fc6;
-  text-shadow: 0 0 20px black;
-  font-weight: 600;
+    color: #a70fc6;
+    text-shadow: 0 0 20px black;
+    font-weight: 600;
 }
 
 .texto p {
-  color: white;
-  width: 100%;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 .texto h2 {
-  color: white;
-  width: 100%;
-  padding: 15px 0;
-  font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
 }
-
-
 
 .movies {
     padding: 160px 15% 120px;
 }
 
 .movie_content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
-  margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
 }
 
 .row {
     width: 360px;
-  height: 470px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  cursor: pointer;
+    height: 470px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .row img {
-  width: 360px;
-  height: 470px;
-  border-radius: 8px;
-  display: block;
-  transition: transform 0.5s;
+    width: 360px;
+    height: 470px;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
 }
 
 .layer {
-  width: 370px;
-  height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), #a70fc6);
-  position: absolute;
-  border-radius: 8px;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 40px;
-  transition: height 0.5s;
+    width: 370px;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), #a70fc6);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
 }
 
 .layer h5 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
 }
 .layer p {
-  color: #fff;
-  font-size: 1rem;
-  line-height: 1.8;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.8;
 }
 .layer a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .layer i {
-  color: #000;
-  margin-top: 20px;
-  font-size: 20px;
-  background: #fff;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
+    color: #000;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 .row:hover img {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .row:hover .layer {
-  height: 100%;
+    height: 100%;
 }
 
 .main-text {
-  color: #fff;
-  text-align: center;
+    color: #fff;
+    text-align: center;
 }
 .main-text p {
-  color: #fff;
-  font-size: 23px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 600;
-  margin-bottom: 15px;
-  margin-bottom: 15px;
+    color: #fff;
+    font-size: 23px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .main-text h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 3rem;
-  line-height: 1;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 3rem;
+    line-height: 1;
 }
 
 .main-text span {
-  color: #a70fc6;
+    color: #a70fc6;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    padding: 24px 15px 0;
+    border-bottom: 5px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-footer {
+    width: 18%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-footer h2 {
+    font-size: 35px;
+    font-family: inter;
+    color: white;
+}
+
+.brand-footer span {
+    color: #a70fc6;
+}
+
+.button {
+    width: 100px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnTopo {
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #a70fc6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnTopo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.btnTopo:hover {
+    transition: 0.2s;
+    background-color: #555;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+address p {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+footer b {
+    color: #a70fc6;
 }
