@@ -265,7 +265,6 @@ main :where(.itens-filme1, .itens-filme2, .itens-filme3, ) img:hover {
 }
 
 .texto strong {
->>>>>>> footer
     color: #a70fc6;
     text-shadow: 0 0 20px black;
     font-weight: 600;
