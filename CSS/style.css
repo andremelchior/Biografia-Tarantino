@@ -289,23 +289,25 @@ main :where(.itens-filme1, .itens-filme2, .itens-filme3, ) img:hover {
   font-family: 'Courier New', Courier, monospace;
 }
 
-section {
-  border-bottom: 1px solid #a70fc6;
-}
 
-section.movies {
-  padding: 160px 15% 120px;
+
+.movies {
+    padding: 160px 15% 120px;
+    border-bottom: 1px solid #a70fc6;
 }
 
 .movie_content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
   align-items: center;
   gap: 2.5rem;
   margin-top: 5rem;
 }
 
 .row {
+    width: 360px;
+  height: 470px;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -313,14 +315,15 @@ section.movies {
 }
 
 .row img {
-  width: 100%;
+  width: 360px;
+  height: 470px;
   border-radius: 8px;
   display: block;
   transition: transform 0.5s;
 }
 
 .layer {
-  width: 100%;
+  width: 370px;
   height: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.4), #a70fc6);
   position: absolute;
@@ -367,6 +370,7 @@ section.movies {
 .row:hover img {
   transform: scale(1.1);
 }
+
 .row:hover .layer {
   height: 100%;
 }
