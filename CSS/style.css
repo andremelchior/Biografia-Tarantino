@@ -16,6 +16,7 @@ header {
     gap: 100px;
     background-color: #110F12;
     position: fixed;
+    z-index: 1000;
 }
 
 .header-1 {
@@ -200,19 +201,19 @@ main{
     transition: 0.5s;
 }
 
-.bio {
+main :where(.bio, .filme1) {
     width: 100%;
     padding: 8% 0px 5%;
 }
 
-.itens-bio img {
+main :where(.itens-bio, .itens-filme1) img {
     width: 30%;
     filter: grayscale(100%);
     border-radius: 1%;
     transition: 0.3s;
 }
 
-.itens-bio img:hover {
+main :where(.itens-bio, .itens-filme1) img:hover {
     filter: none;
     transition: 0.3s;
 }
@@ -222,6 +223,16 @@ main{
     max-width: 95%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.itens-filme1{
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse ;
     align-items: center;
     justify-content: space-around;
 }
