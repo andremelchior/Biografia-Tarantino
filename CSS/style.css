@@ -61,11 +61,19 @@ header {
     cursor: pointer;
     border-bottom: 2px solid #a70fc6;
     text-shadow: 0 0 4px #a70fc6;
+}
+
+.menu1 a{
+    text-decoration: none;
     color: #a70fc6;
 }
 
-.menu {
+.menu a{
+    text-decoration: none;
     color: white;
+}
+
+.menu {
     font-size: 15px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
@@ -202,7 +210,7 @@ main {
 
 main :where(.bio, .filme1, .filme2, .filme3) {
     width: 100%;
-    padding: 8% 0px 5%;
+    padding: 13% 0px 5%;
 }
 
 .itens-bio img {
