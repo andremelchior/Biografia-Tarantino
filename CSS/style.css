@@ -93,12 +93,13 @@ header {
 }
 
 .border-menu::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 30%;
-  transition: 0.3s;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 30%;
+    border-bottom: 2px solid #a70fc6;
+    transition: 0.3s;
 }
 
 .border-menu:hover::after {
