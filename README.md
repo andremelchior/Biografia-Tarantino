@@ -6,4 +6,4 @@
 - Contains animated images with the jQuery Js library.
 - Contains Icons with Remix Icons library
 
-![preview img](/preview.png)
+![preview img](./Assets/preview.png)
