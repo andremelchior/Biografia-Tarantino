@@ -1,9 +1,7 @@
-# WebSite de biografia do diretor de cinema Quentin Tarantino.
+# WebSite de Biografia do diretor de cinema Quentin Tarantino.
 
-### Responsive Website Tarantino 
 
-- Responsive Website Design Using HTML CSS And JavaScript
-- Contains animated images with the jQuery Js library.
-- Contains Icons with Remix Icons library
+-> Frontend usando HTML5 e CSS3.
 
+### UI do projeto feito com Figma:
 ![preview img](./Assets/section-main.PNG)
